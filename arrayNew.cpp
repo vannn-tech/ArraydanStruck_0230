@@ -27,6 +27,16 @@ int main() {
     cout << "Data pada index 4 = " << kamu[4] << endl;
     cout << endl;
 
+    for (int i = 0; i < 4; i++) 
+    {
+        cout << "Data ke-" << i+1 << " = " << kamu[i] << endl;
+        cin >> kamu[i];
+    }
+    cout << endl;
+    for (int i = 0; i < 4; i++) 
+    {
+        cout << "Data ke-" << i+1 << " = " << kamu[i] << endl;
+    }
 
 return 0;
 }
