@@ -16,5 +16,14 @@ struct orang
 
 int main() {
     orang mhs;
-   
+    // mengisi data
+    cout << "Nama : ";
+    getline(cin, mhs.nama);
+    cout << "Desa : ";
+    getline(cin, mhs.alamat.desa);
+    cout << "Kota : ";
+    getline(cin, mhs.alamat.kota);
+    cout << "Umur : ";
+    cin >> mhs.umur;
+    
 }
